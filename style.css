@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .container{
+    left: 10px;
+     background-image: url("imgs/arrows-paper-airplane-doodle-paper-plane-icons-hand-drawn-paper-airplane-illustration-vector.jpg");
+  }
+  form{
+    width: 920px;
+    margin: 20px;
+    padding: 70px 20px;
+    background: #fff;
+  }
+  fieldset{
+    border: none;
+  }
+  .radio-group label{
+    padding-right: 90px;
+  }
+  .from-place, .to-place, .airline-name{
+    width: 90%;
+    height: 36px;
+    padding: 2px 8px;
+    border: 1px solid #dcdcdc;
+    outline: none;
+  }
+  .group-field label{
+    display: block;
+    padding: 10px 0;
+  }
+  fieldset div{
+    display: inline-block;
+    padding: 10px 0px;
+  }    
+  .group-field{
+      width: 420px;
+      height: auto;
+  }
+  .group-select-field{
+    width: 210px;
+    height: auto;
+  }
+  .group-select-field label{
+    display: block;
+    padding: 5px 0px;
+  }
+  .ticket-count {
+      width: 120px;
+  }
+  .search-btn{
+    float: right;
+    padding: 10px 22px;
+    border-radius: 6px;
+    outline: none;
+    font-weight: bold;
+    background: #EF8D9C;
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .place-swap-btn{
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  .more-link{
+    color: #4071e8;
+    outline: none;
+  }
+  select{
+    border: 1px solid #dcdcdc;
+    background: white;
+    outline: none;
+  }
+  .bold-type{
+    font-weight: bold;
+  }
+  ::placeholder{
+    color: #999999;
+  }
+  /*.label-hint{
+    color: #999999;
+  }*/
+
+  input[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  95% 50% no-repeat ;
+    height: 36px;
+    border: 1px solid #dcdcdc;
+    outline: none;
+  }
+  input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+  .more-option{
+    border-bottom: 1px dotted #dcdcdc;
+    padding-bottom: 20px;
+  }
+  .table-users {
+    border: 1px ;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+    max-width: 940px;
+    min-height: 490px;
+    background: #fff;
+    margin: 10px auto;
+
+  
+ }
+
+
+ .main{
+    top: auto;
+    max-width: 1200px;
+    margin:0 auto;
+  }
+  
+  h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  }
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  .made_by{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .card_image{
+    width: 500px;
+    height: 300px;
+  }
+  h1{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 50px;
+    color:  #e47585;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*background-image: url("imgs/image1.png");*/
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: #000;
+    /*background: aqua;*/
+        text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background: rgb(214, 254, 254);
+}
+
+.main2{
+   
+    max-width: 2000px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background: #000;
+    
+}
+.footer{
+  padding:10px 0 ;
+  margin: auto;
+
+}
+.col{
+  margin: auto;
+  width: 30%;
+  font-size: 20px;
+}
+.col > h4{
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 25px;
+  position: relative;
+}
+.col >h4::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  left: 0;
+  bottom: -8px;
+  background: linear-gradient(#ff469f, #ff6062);
+}
+.col > ul > li a{
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+.col > ul > li a:hover{
+  color: #ff469f;
+}
+

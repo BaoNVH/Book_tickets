@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AirlineBooking</title>
+</head>
+
+<body>
+  <section>
+
+    <header>
+      <h2><a href="#" class="logo">Logo</a></h2>
+      <div class="navigation">
+        <a href="#">Trang chủ</a>
+        <a href="#">Tin tức</a>
+        <a href="#">Khuyến mãi</a>
+        <a href="#">Thông tin cần biết</a>
+        <a href="#">Thanh toán</a>
+        <a href="#">Liên hệ: 0000000000</a>
+
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="ticket">
+        <div class="table-users">
+          <form action="" method="post" class="trip-form">
+
+            <fieldset class="radio-group">
+              <label for="one-way" class="bold-type">
+                <input type="radio" id="one-way" name="trip-type" value="oneWay" />
+                One Way
+              </label>
+
+              <label for="round-trip" class="bold-type">
+                <input type="radio" id="round-trip" name="trip-type" value="roundTrip" checked="checked" />
+                Round trip
+              </label>
+
+              <label for="multi-city" class="bold-type">
+                <input type="radio" id="multi-city" name="trip-type" value="multiCity" />
+                Multi City
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <div class="group-field">
+                <label for="from" class="bold-type">Đi từ </label>
+                <input class="from-place" type="text" name="from" maxlength="100" placeholder="Chọn điểm đi">
+              </div>
+
+              <div class="group-field">
+                <label for="to" class="bold-type">Đến </label>
+                <input class="to-place" type="text" name="to" maxlength="100" placeholder="Chọn điểm đến">
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="group-field">
+                <label for="depart" class="bold-type">Ngày đi</label>
+                <input placeholder="Pick a date" type="date" name="depart" />
+              </div>
+
+              <div class="group-field">
+                <label for="return" class="bold-type">Ngày về</label>
+                <input placeholder="Pick a date" type="date" name="return" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="group-select-field">
+                <label for="adults" class="bold-type">Người lớn</label>
+                <input class="ticket-count" type="text" name="adults" maxlength="60">
+              </div>
+
+              <div class="group-select-field">
+                <label for="children" class="bold-type">Trẻ em(2 - 11 tuổi)</label>
+                <input class="ticket-count" type="text" name="children" maxlength="60">
+
+              </div>
+              <div class="group-select-field">
+                <label for="infants" class="bold-type">Trẻ sơ sinh(Dưới 2 tuổi)</label>
+                <input class="ticket-count" type="text" name="children" maxlength="60">
+              </div>
+            </fieldset>
+
+            <fieldset class="more-option">
+              <details>
+                <summary class="more-link"> <b>Lựa chọn khác: </b>Hạng bay, Hãng bay</summary>
+                <div class="group-field">
+                  <label for="class-of-travel">Hạng bay</label>
+                  <select name="class-of-travel" class="travel-class-select">
+                    <option value="business"></option>
+                    <option value="economy">Economy</option>
+                    <option value="business">Business class</option>
+                    <option value="firstClass">First class</option>
+                  </select>
+                </div>
+
+                <div class="group-field">
+                  <label for="airline-name">Hãng bay</label>
+                  <select name="class-of-travel" class="travel-class-select">
+                    <option value="business"></option>
+                    <option value="business">Vietnam Airline</option>
+                    <option value="firstClass">VietJet</option>
+                    <option value="business">Bamboo</option>
+                  </select>
+                </div>
+              </details>
+            </fieldset>
+
+            <input class="search-btn" type="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+
+      <div class="main">
+        <h1>NỔI BẬT</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://statics.vinpearl.com/du-lich-vinh-Ha-Long-hinh-anh1_1625911963.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title"> VỊNH HẠ LONG</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://ik.imagekit.io/tvlk/blog/2022/06/dia-diem-du-lich-quy-nhon-1.jpg?tr=dpr-2,w-675"></div>
+              <div class="card_content">
+                <h2 class="card_title">QUY NHƠN</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://ik.imagekit.io/tvlk/blog/2023/01/canh-dep-da-lat-1.jpg?tr=dpr-2,w-675"></div>
+              <div class="card_content">
+                <h2 class="card_title">ĐÀ LẠT</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/shutterstock673422760-1645411371393.png">
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">CẦN THƠ</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://www.travelanddestinations.com/wp-content/uploads/2023/03/Ho-Chi-Minh-City-skyline-1024x681.jpg">
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">TP. HỒ CHÍ MINH</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img
+                  src="https://image.vietnamnews.vn/uploadvnnews/Article/2018/10/3/HKLake263113810AM.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">HÀ NỘI</h2>
+                <p class="card_text"></p>
+                <button class="btn card_btn">Khám phá</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <div class="main2">
+      <div class="col">
+        <h4>Thông tin cần biết</h4>
+        <ul>
+          <li><a href="#">Đổi vé máy bay</a></li>
+          <li><a href="#">Quy định chung về hành lý</a></li>
+          <li><a href="#">Thanh toán vé</a></li>
+          <li><a href="#">Liên hệ phòng vé</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Chuyến bay yêu thích</h4>
+        <ul>
+          <li><a href="#">Vé máy bay đi Quy Nhơn</a></li>
+          <li><a href="#">Vé máy bay đi Vịnh Hạ Long</a></li>
+          <li><a href="#">Vé máy bay đi Cần Thơ</a></li>
+          <li><a href="#">Vé máy bay đi Hà Nội</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Liên hệ</h4>
+        <ul>
+          <li><a href="#">Địa chỉ: Cao đẳng FPT Polytechnic</a></li>
+          <li><a href="#">HOTLINE: 00000000</a></li>
+          <li><a href="#">Email: airbooking@gmail.com</a></li>
+          <li><a href="#">Page: Airbooking</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
